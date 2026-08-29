@@ -1,0 +1,45 @@
+/* SoftApps Digital Solutions — Design Tokens */
+:root {
+  /* Brand colours */
+  --color-primary: #0c2d6b;
+  --color-primary-dark: #071a3f;
+  --color-primary-light: #1a4a9e;
+  --color-accent: #2563eb;
+  --color-accent-light: #3b82f6;
+  --color-accent-soft: #dbeafe;
+  --color-highlight: #06b6d4;
+
+  /* Neutrals */
+  --color-white: #ffffff;
+  --color-bg: #f8fafc;
+  --color-bg-alt: #f1f5f9;
+  --color-charcoal: #0f172a;
+  --color-text: #334155;
+  --color-text-muted: #64748b;
+  --color-border: #e2e8f0;
+
+  /* Typography */
+  --font-heading: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+
+  /* Spacing */
+  --section-padding: 5rem;
+  --section-padding-sm: 3rem;
+  --container-max: 1200px;
+
+  /* Effects */
+  --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.08);
+  --shadow-md: 0 4px 20px rgba(15, 23, 42, 0.1);
+  --shadow-lg: 0 12px 40px rgba(15, 23, 42, 0.12);
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --transition: 0.25s ease;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --section-padding: 3.5rem;
+    --section-padding-sm: 2.5rem;
+  }
+}

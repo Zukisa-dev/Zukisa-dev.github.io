@@ -1,0 +1,17 @@
+/*
+Theme Name: SoftApps Digital
+Theme URI: https://softapps.co.za/
+Author: SoftApps Digital Solutions (Pty) Ltd
+Author URI: https://softapps.co.za/
+Description: Professional theme for SoftApps Digital Solutions — ICT, software, web development, IT support and training. GIS services can be added as a future service category.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.7
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: softapps-digital
+Tags: business, custom-menu, featured-images, responsive-layout, accessibility-ready
+*/
+
+/* Main styles are enqueued from assets/css/style.css via functions.php */
